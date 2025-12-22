@@ -1,3 +1,6 @@
+// Login valida las credenciales del usuario
+// Retorna error si el usuario no existe o la contraseña es incorrecta
+
 package internal
 
 import (

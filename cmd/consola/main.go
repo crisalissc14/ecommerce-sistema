@@ -1,4 +1,8 @@
 package main
+// main.go (consola)
+// Punto de entrada del sistema por consola.
+// Se encarga del login y del control de acceso por rol.
+
 
 import (
 	"fmt"
