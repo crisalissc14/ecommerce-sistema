@@ -60,10 +60,9 @@ Este sistema puede evolucionar integrando módulos adicionales como productos, p
 ---
 
 ## 👥 Datos del Grupo
-- **Integrante:** [Tu nombre aquí]
-- **Carrera:** [Tu carrera]
-- **Asignatura:** Programación con Go
-- **Docente:** [Nombre del docente]
+- **Integrante:** Cristina Colimba
+- **Carrera:** Ingeniería en Sistemas de la Información
+- **Asignatura:** Programación con Orientada a Objetos con Go
 
 ---
 
