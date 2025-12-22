@@ -7,7 +7,7 @@ import (
 )
 
 // Modelo API
-type UsuariosAPI struct {
+type UsuarioAPI struct {
 	ID     int    `json:"id"`
 	Nombre string `json:"nombre"`
 	Usuario string `json:"usuario"`
@@ -16,7 +16,7 @@ type UsuariosAPI struct {
 }
 
 // BD en memoria
-var usuariosAPI = []UsuariosAPI{
+var usuariosAPI = []UsuarioAPI{
 	{1, "Administrador", "admin", "admin", true},
 	{2, "Cliente Compra", "cliente", "cliente", true},
 }
@@ -27,7 +27,7 @@ func ListarUsuariosAPI(w http.ResponseWriter, r *http.Request) {
 }
 
 // GET /usuario?id=1
-func ObtenerUsuariosAPI(w http.ResponseWriter, r *http.Request) {
+func ObtenerUsuarioAPI(w http.ResponseWriter, r *http.Request) {
 	id, _ := strconv.Atoi(r.URL.Query().Get("id"))
 	for _, u := range usuariosAPI {
 		if u.ID == id {
